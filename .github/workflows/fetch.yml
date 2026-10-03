@@ -15,9 +15,11 @@ jobs:
       - name: Download latest readings
         run: |
           mkdir -p data
-          curl -sf "https://api-open.data.gov.sg/v2/real-time/api/air-temperature" -o data/air_temp.json
-          curl -sf "https://api-open.data.gov.sg/v2/real-time/api/rainfall" -o data/rainfall.json
-          curl -sf "https://api-open.data.gov.sg/v2/real-time/api/pm25" -o data/pm25.json
+          for pair in "air-temperature:air_temp" "rainfall:rainfall" "pm25:pm25"; do
+            api="${pair%%:*}"; name="${pair##*:}"
+            curl -sf "https://api-open.data.gov.sg/v2/real-time/api/$api" -o "data/$name.json" \
+              || echo "WARN: $api failed"
+          done
           
       - name: Commit
         run: |
