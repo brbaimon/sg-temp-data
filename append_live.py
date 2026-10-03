@@ -81,7 +81,7 @@ def rows_wbgt(path):
         ts = rec.get("datetime") or rec.get("timestamp", "")
         for r in item.get("readings", []):
             st = r.get("station") or {}
-            loc = st.get("location") or {}
+            loc = r.get("location") or {}
             out.append([ts, st.get("id", ""), st.get("name", ""),
                         st.get("townCenter", ""), loc.get("latitude", ""),
                         loc.get("longitude", ""), r.get("wbgt", ""),
