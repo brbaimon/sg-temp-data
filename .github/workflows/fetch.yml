@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-air-temp
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -20,10 +24,12 @@ jobs:
             curl -sf "https://api-open.data.gov.sg/v2/real-time/api/$api" -o "data/$name.json" \
               || echo "WARN: $api failed"
           done
-          
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data/
-          git diff --cached --quiet || (git commit -m "update" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "update"
+          git pull --rebase origin main
+          git push
