@@ -11,6 +11,8 @@ STATION_COLS = ["ts", "id", "station_name", "latitude", "longitude",
                 "value", "reading_type", "reading_unit"]
 PM25_COLS = ["ts", "id", "updated_ts", "date", "latitude", "longitude",
              "reading_key", "value"]
+WBGT_COLS = ["ts", "id", "station_name", "town_center", "latitude", "longitude",
+             "wbgt", "heat_stress", "is_station_data", "record_type", "updated_ts"]
 
 
 def rows_station(path):
@@ -71,6 +73,22 @@ def append(name, cols, rows):
                 w.writerow(cols)
             w.writerows(new)
 
+def rows_wbgt(path):
+    d = json.load(open(path)).get("data", {})
+    out = []
+    for rec in d.get("records", []):
+        item = rec.get("item") or {}
+        ts = rec.get("datetime") or rec.get("timestamp", "")
+        for r in item.get("readings", []):
+            st = r.get("station") or {}
+            loc = st.get("location") or {}
+            out.append([ts, st.get("id", ""), st.get("name", ""),
+                        st.get("townCenter", ""), loc.get("latitude", ""),
+                        loc.get("longitude", ""), r.get("wbgt", ""),
+                        r.get("heatStress", ""), item.get("isStationData", ""),
+                        item.get("type", ""), rec.get("updatedTimestamp", "")])
+    return out
+
 
 def prune():
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
@@ -99,6 +117,7 @@ for name, path, cols, fn in [
     ("air_temp", "data/air_temp.json", STATION_COLS, rows_station),
     ("rainfall", "data/rainfall.json", STATION_COLS, rows_station),
     ("pm25", "data/pm25.json", PM25_COLS, rows_pm25),
+    ("wbgt", "data/wbgt.json", WBGT_COLS, rows_wbgt),
 ]:
     try:
         rows = fn(path)
