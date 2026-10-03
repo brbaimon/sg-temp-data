@@ -27,6 +27,8 @@ jobs:
               "https://api-open.data.gov.sg/v2/real-time/api/$api" \
               -o "data/$name.json" || echo "WARN: $api failed"
           done
+      - name: Append to history
+        run: python3 append_live.py
       - name: Commit
         run: |
           git config user.name "github-actions"
