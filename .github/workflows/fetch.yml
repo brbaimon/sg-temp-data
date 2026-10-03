@@ -22,7 +22,7 @@ jobs:
           DATAGOV_KEY: ${{ secrets.DATAGOV_KEY }}
         run: |
           mkdir -p data
-          for pair in "air-temperature:air_temp" "rainfall:rainfall" "pm25:pm25"; do
+          for pair in "air-temperature:air_temp" "rainfall:rainfall" "pm25:pm25" "weather?api=wbgt:wbgt"; do
             api="${pair%%:*}"; name="${pair##*:}"
             curl -sf -H "x-api-key: $DATAGOV_KEY" \
               "https://api-open.data.gov.sg/v2/real-time/api/$api" \
