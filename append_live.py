@@ -1,6 +1,7 @@
 import csv
 import json
 from pathlib import Path
+from datetime import datetime, timedelta, timezone
 
 LIVE = Path("data/live")
 LIVE.mkdir(parents=True, exist_ok=True)
@@ -67,6 +68,30 @@ def append(name, cols, rows):
                 w.writerow(cols)
             w.writerows(new)
 
+KEEP_DAYS = 1
+
+
+def prune():
+    cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
+    for f in LIVE.glob("*.csv"):
+        with open(f, newline="") as fh:
+            reader = csv.reader(fh)
+            header = next(reader, None)
+            keep = []
+            for row in reader:
+                try:
+                    if datetime.fromisoformat(row[0]) >= cutoff:
+                        keep.append(row)
+                except (ValueError, IndexError):
+                    keep.append(row)
+        if not keep:
+            f.unlink()
+            print("pruned empty file", f)
+            continue
+        with open(f, "w", newline="") as fh:
+            w = csv.writer(fh)
+            w.writerow(header)
+            w.writerows(keep)
 
 for name, path, cols, fn in [
     ("air_temp", "data/air_temp.json", STATION_COLS, rows_station),
@@ -77,3 +102,4 @@ for name, path, cols, fn in [
         append(name, cols, fn(path))
     except (FileNotFoundError, ValueError, KeyError) as e:
         print("WARN:", name, e)
+    prune()
