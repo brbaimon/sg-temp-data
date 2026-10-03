@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-air-temp
+  group: fetch-live
   cancel-in-progress: false
 
 jobs:
@@ -17,18 +17,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download latest readings
+        env:
+          DATAGOV_KEY: ${{ secrets.DATAGOV_KEY }}
         run: |
           mkdir -p data
           for pair in "air-temperature:air_temp" "rainfall:rainfall" "pm25:pm25"; do
             api="${pair%%:*}"; name="${pair##*:}"
-            curl -sf "https://api-open.data.gov.sg/v2/real-time/api/$api" -o "data/$name.json" \
-              || echo "WARN: $api failed"
+            curl -sf -H "x-api-key: $DATAGOV_KEY" \
+              "https://api-open.data.gov.sg/v2/real-time/api/$api" \
+              -o "data/$name.json" || echo "WARN: $api failed"
           done
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/
+          git add data/air_temp.json data/rainfall.json data/pm25.json
           git diff --cached --quiet && exit 0
           git commit -m "update"
           git pull --rebase origin main
