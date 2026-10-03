@@ -1,4 +1,4 @@
-ts,id,value
+ts, id, station_name, latitude, longitude, value, reading_type, reading_unit
 2026-10-03T17:25:00+08:00,S218,Bukit Batok Street 34,1.36491,103.75065,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-03T17:25:00+08:00,S219,Yio Chu Kang Road,1.37998,103.87639,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-03T17:25:00+08:00,S216,Ang Mo Kio Avenue 10,1.36019,103.85335,0,TB1 Rainfall 5 Minute Total F,mm
