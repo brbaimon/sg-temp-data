@@ -1,4 +1,4 @@
-ts,id,value
+ts, id, station_name, latitude, longitude, value, reading_type, reading_unit
 2026-10-03T17:29:00+08:00,S109,Ang Mo Kio Avenue 5,1.3793,103.85,32.2,DBT 1M F,deg C
 2026-10-03T17:29:00+08:00,S106,Jalan Noordin (Pulau Ubin),1.4168,103.9673,31,DBT 1M F,deg C
 2026-10-03T17:29:00+08:00,S117,Banyan Road (Jurong Island),1.2542,103.6741,30.6,DBT 1M F,deg C
