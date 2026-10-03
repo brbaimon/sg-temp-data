@@ -1,4 +1,4 @@
-name: backfill-air-temp
+name: backfill-weather
 on:
   workflow_dispatch:
     inputs:
@@ -8,6 +8,10 @@ on:
       end:
         description: "End date (YYYY-MM-DD)"
         required: true
+      datasets:
+        description: "Comma-separated: air_temp,rainfall,pm25"
+        required: true
+        default: "air_temp,rainfall,pm25"
 
 permissions:
   contents: write
@@ -30,14 +34,14 @@ jobs:
         timeout-minutes: 330
         env:
           DATAGOV_KEY: ${{ secrets.DATAGOV_KEY }}
-        run: python backfill.py "${{ inputs.start }}" "${{ inputs.end }}"
+        run: python backfill.py "${{ inputs.start }}" "${{ inputs.end }}" "${{ inputs.datasets }}"
       - name: Commit
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/hourly
+          git add data/daily
           git diff --cached --quiet && exit 0
-          git commit -m "backfill ${{ inputs.start }} to ${{ inputs.end }}"
+          git commit -m "backfill ${{ inputs.start }} to ${{ inputs.end }} (${{ inputs.datasets }})"
           git pull --rebase origin main
           git push
