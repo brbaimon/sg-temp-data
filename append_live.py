@@ -1,10 +1,11 @@
 import csv
 import json
-from pathlib import Path
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 LIVE = Path("data/live")
 LIVE.mkdir(parents=True, exist_ok=True)
+KEEP_DAYS = 7
 
 STATION_COLS = ["ts", "id", "station_name", "latitude", "longitude",
                 "value", "reading_type", "reading_unit"]
@@ -16,9 +17,8 @@ def rows_station(path):
     d = json.load(open(path)).get("data", {})
     meta = {}
     for s in d.get("stations", []):
-        sid = s.get("id") or s.get("deviceId")
-        loc = s.get("location") or s.get("labelLocation") or {}
-        meta[sid] = (s.get("name", ""), loc.get("latitude", ""), loc.get("longitude", ""))
+        loc = s.get("location") or {}
+        meta[s["id"]] = (s.get("name", ""), loc.get("latitude", ""), loc.get("longitude", ""))
     rtype = d.get("readingType", "")
     runit = d.get("readingUnit", "")
     out = []
@@ -56,7 +56,10 @@ def append(name, cols, rows):
         if f.exists():
             with open(f, newline="") as fh:
                 reader = csv.reader(fh)
-                next(reader, None)
+                header = next(reader, None)
+                if header != cols:
+                    print("WARN:", f, "has an old header, delete it:", header)
+                    continue
                 seen = {(row[0], row[1]) for row in reader if len(row) > 1}
         new = [r for r in rs if (r[0], str(r[1])) not in seen]
         if not new:
@@ -67,8 +70,6 @@ def append(name, cols, rows):
             if is_new:
                 w.writerow(cols)
             w.writerows(new)
-
-KEEP_DAYS = 1
 
 
 def prune():
@@ -93,13 +94,17 @@ def prune():
             w.writerow(header)
             w.writerows(keep)
 
+
 for name, path, cols, fn in [
     ("air_temp", "data/air_temp.json", STATION_COLS, rows_station),
     ("rainfall", "data/rainfall.json", STATION_COLS, rows_station),
     ("pm25", "data/pm25.json", PM25_COLS, rows_pm25),
 ]:
     try:
-        append(name, cols, fn(path))
+        rows = fn(path)
+        print(name, "rows:", len(rows), "sample:", rows[0] if rows else None)
+        append(name, cols, rows)
     except (FileNotFoundError, ValueError, KeyError) as e:
         print("WARN:", name, e)
-    prune()
+
+prune()
