@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Download latest readings
         env:
           DATAGOV_KEY: ${{ secrets.DATAGOV_KEY }}
@@ -27,8 +28,10 @@ jobs:
               "https://api-open.data.gov.sg/v2/real-time/api/$api" \
               -o "data/$name.json" || echo "WARN: $api failed"
           done
-      - name: Append to history
+
+      - name: Append to history and prune
         run: python3 append_live.py
+
       - name: Commit
         run: |
           git config user.name "github-actions"
