@@ -6934,3 +6934,4 @@ ts,id,station_name,latitude,longitude,value,reading_type,reading_unit
 2026-10-11T00:35:00+08:00,S111,Scotts Road,1.3106,103.8365,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-11T00:35:00+08:00,S112,Lim Chu Kang Road,1.4388,103.7017,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-11T00:35:00+08:00,S230,West Coast Road,1.30167,103.76444,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T00:35:00+08:00,S224,Airport Boulevard,1.34394,103.98386,0,TB1 Rainfall 5 Minute Total F,mm
