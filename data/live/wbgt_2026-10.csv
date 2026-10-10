@@ -1,34 +1,4 @@
 ts,id,station_name,town_center,latitude,longitude,wbgt,heat_stress,is_station_data,record_type,updated_ts
-2026-10-04T05:15:00+08:00,S124,Upper Changi Road North,Changi Meteorological Station,1.36777,103.982262,25.6,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S125,Woodlands Street 13,Woodlands Stadium,1.433789,103.780731,25.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S126,Old Chua Chu Kang Road,Old Choa Chu Kang Road,1.372566,103.724358,24.5,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S127,Stadium Road,Kallang Practice Track,1.305738,103.878174,25.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S128,Bishan Street,Bishan Stadium,1.354825,103.852219,25.1,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S129,Bedok North Street 2,Bedok Stadium,1.325746,103.939691,25.8,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S132,Jurong West Street 93,Jurong West Stadium,1.337859,103.695383,26.0,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S135,Mandai Wildlife Reserve,Mandai Wildlife Reserve,1.4084245,103.7808629,24.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S137,Sakra Road,Sakra Road (Jurong Island),1.2571,103.698,26.0,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S139,Tuas Terminal Gateway,Tuas Terminal Gateway,1.263757,103.616417,25.8,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S140,Choa Chu Kang Stadium,Choa Chu Kang Stadium,1.390524,103.749664,25.0,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S141,Yio Chu Kang Stadium,Yio Chu Kang Stadium,1.382564,103.84619,25.3,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S142,Sentosa Palawan Green,Palawan Green (Sentosa),1.24950363476734,103.819177652546,25.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S143,Punggol North,Punggol North,1.41046864267577,103.904965342662,25.1,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S144,Upper Pickering Street,Hong Lim Park,1.286011,103.846988,25.5,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S145,MacRitchie Reservoir,MacRitchie Reservoir,1.3418179,103.833913,24.7,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S146,Jalan Bahar,Jalan Bahar,1.365386,103.692372,24.4,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S147,Marina Barrage,Marina Barrage,1.280001,103.8697302,24.8,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S148,Pasir Ris Walk,Pasir Ris Walk,1.3715018,103.9642012,25.4,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S149,Tampines Walk,Tampines Central Park,1.353834,103.938823,25.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S150,Evans Road,MOE (Evans) Stadium,1.321182,103.819737,24.9,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S151,Outward Bound Singapore(Pulau ubin),Outward Bound Singapore(Pulau ubin),1.4214527,103.9299001,25.2,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S153,Bukit Batok Street 22,Bukit Batok Swimming Complex,1.344712,103.749077,25.3,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S180,Taman Jurong Greens,Taman Jurong Greens,1.3370108,103.7182835,25.1,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S184,Sengkang East Avenue,Sengkang East Avenue,1.382559,103.898525,25.5,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S187,Bukit Timah(West),Coronation Road,1.322505,103.801390,24.9,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S131,Hougang Stadium,Hougang Stadium,1.36833,103.88611,25.8,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S133,Cathay Green,Cathay Green,1.29829165,103.84786601,25.3,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S138,Stirling Road,Stirling Road,1.29702179,103.80346961,25.4,Low,True,observation,2026-10-04T05:25:12+08:00
-2026-10-04T05:15:00+08:00,S910,Outward Bound Singapore(East Coast),Outward Bound Singapore(East Coast),1.31182524,103.95437923,25.4,Low,True,observation,2026-10-04T05:25:12+08:00
 2026-10-04T05:30:00+08:00,S124,Upper Changi Road North,Changi Meteorological Station,1.36777,103.982262,25.6,Low,True,observation,2026-10-04T05:40:13+08:00
 2026-10-04T05:30:00+08:00,S125,Woodlands Street 13,Woodlands Stadium,1.433789,103.780731,25.3,Low,True,observation,2026-10-04T05:40:13+08:00
 2026-10-04T05:30:00+08:00,S126,Old Chua Chu Kang Road,Old Choa Chu Kang Road,1.372566,103.724358,24.5,Low,True,observation,2026-10-04T05:40:13+08:00
