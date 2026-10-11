@@ -14310,3 +14310,92 @@ ts,id,station_name,latitude,longitude,value,reading_type,reading_unit
 2026-10-11T09:25:00+08:00,S111,Scotts Road,1.3106,103.8365,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-11T09:25:00+08:00,S112,Lim Chu Kang Road,1.4388,103.7017,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-11T09:25:00+08:00,S230,West Coast Road,1.30167,103.76444,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S218,Bukit Batok Street 34,1.36491,103.75065,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S219,Yio Chu Kang Road,1.37998,103.87639,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S216,Ang Mo Kio Avenue 10,1.36019,103.85335,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S217,Bishan Street 13,1.35028,103.855,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S214,Tanjong Rhu,1.29911,103.88289,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S215,Geylang East Central,1.31944,103.88194,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S213,Coronation Walk,1.32427,103.8097,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S80,Sembawang Meteorological Station,1.4247,103.8201,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S81,Punggol Central,1.4028,103.9095,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S40,Mandai Lake Road,1.4067,103.7832,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S84,Tampines Avenue 5,1.3443,103.9441,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S180,Taman Jurong Greens,1.33701,103.71828,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S44,Nanyang Avenue,1.3458,103.6817,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S88,Toa Payoh North,1.3417,103.8515,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S43,Kim Chuan Road,1.3406,103.8882,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S06,Paya Lebar Meteorological Station,1.357,103.904,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S100,Sungei Kadut Street 3,1.4172,103.74855,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S221,Hougang Avenue 1,1.35691,103.89088,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S222,Henderson Road,1.28987,103.82364,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S08,Lower Peirce Reservoir,1.37,103.8271,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S07,Macritchie Reservoir,1.3418,103.8339,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S187,Coronation Road,1.32251,103.80139,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S220,Compassvale Lane,1.38666,103.89797,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S184,Sengkang East Avenue,1.38256,103.89852,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S208,Changi East Close,1.31363,104.00317,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S129,Bedok Stadium,1.32575,103.93969,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S127,Kallang Practice Track,1.30574,103.87817,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S201,Sunset Way,1.32319,103.76714,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S90,Bukit Timah Road,1.3191,103.8193,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S92,South Buona Vista Road,1.2841,103.7888,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S209,Yishun Ring Road,1.42111,103.84472,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S50,Clementi Road,1.3318,103.7762,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S94,Pasir Ris Street 51,1.3679,103.9489,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S210,Woodlands Centre Road,1.44003,103.76904,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S211,Kranji Road,1.42918,103.75711,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S132,Jurong West Stadium,1.33786,103.69538,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S119,Nicoll Highway,1.295,103.8622,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S117,Banyan Road (Jurong Island),1.2542,103.6741,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S115,Tuas South Avenue 3,1.2938,103.6184,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S116,Pasir Panjang Terminal,1.2824,103.7545,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S113,Marine Parade Road,1.305,103.9112,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S114,Choa Chu Kang Avenue 4,1.3821,103.7381,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S60,Artillery Avenue (Sentosa),1.2504,103.8275,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S64,Bukit Panjang Road,1.3823,103.7607,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S66,Kranji Reservoir,1.4387,103.736,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S24,Changi Meteorological Station,1.3678,103.9823,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S23,Tengah Meteorological Station,1.3858,103.7119,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S69,Upper Peirce Reservoir Park,1.3704,103.8046,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S123,Towner Road,1.3214,103.8577,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S120,Botanic Garden,1.3087,103.818,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S121,Old Choa Chu Kang Road,1.3738,103.7217,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S108,Marina Barrage,1.2799,103.8703,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S229,Jurong West Street 42,1.35167,103.72195,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S306,Murnane Service Reservoir,1.35085,103.78596,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S900,Seletar Meteorological Station,1.4114,103.8627,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S109,Ang Mo Kio Avenue 5,1.3793,103.85,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S307,Pulau Tekong Reservoir,1.41076,104.04156,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S106,Jalan Noordin (Pulau Ubin),1.4168,103.9673,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S227,Woodlands Drive 62,1.43944,103.80389,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S107,East Coast Park,1.3133,103.962,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S228,Jurong West Street 73,1.34703,103.70073,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S305,Sarimbum Reservoir,1.4216,103.68127,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S104,Woodlands Avenue 9,1.4439,103.7854,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S148,Pasir Ris Walk,1.3715,103.9642,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S302,Tengeh Reservoir,1.33813,103.66303,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S226,Malan Road,1.27472,103.80389,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S303,Ponyan Reservoir,1.38375,103.65817,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S102,Semakau Island,1.1902,103.7657,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S223,Margaret Drive,1.29984,103.80264,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S300,Bedok Reservoir,1.34301,103.91971,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S224,Airport Boulevard,1.34394,103.98386,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S301,Neo Tiew Lane 2,1.41532,103.72871,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S908,Fernvale Lane,1.39027,103.87412,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S909,Seraya Road,1.30568,103.90093,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S907,Rivervale Drive,1.39316,103.87412,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S71,Kent Ridge Road,1.2923,103.7815,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S904,Holland Grove Road,1.31622,103.7837,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S905,Hillcrest Road,1.3308,103.8045,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S308,Seletar Reservoir,1.40158,103.80814,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S902,Yishun Walk,1.41457,103.83106,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S903,Lorong Kismis,1.33742,103.76699,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S33,Jurong Pier Road,1.3082,103.71,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S77,Alexandra Road,1.2937,103.8127,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S35,Old Toh Tuck Road,1.3325,103.755,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S79,Somerset Road,1.3003,103.8372,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S78,Poole Road,1.307,103.8907,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S111,Scotts Road,1.3106,103.8365,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S112,Lim Chu Kang Road,1.4388,103.7017,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-11T09:30:00+08:00,S230,West Coast Road,1.30167,103.76444,0,TB1 Rainfall 5 Minute Total F,mm
