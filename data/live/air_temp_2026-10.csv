@@ -26772,3 +26772,7 @@ ts,id,station_name,latitude,longitude,value,reading_type,reading_unit
 2026-10-16T12:18:00+08:00,S06,Paya Lebar Meteorological Station,1.357,103.904,32.9,DBT 1M F,deg C
 2026-10-16T12:18:00+08:00,S111,Scotts Road,1.3106,103.8365,31.3,DBT 1M F,deg C
 2026-10-16T12:18:00+08:00,S121,Old Choa Chu Kang Road,1.3738,103.7217,33.1,DBT 1M F,deg C
+2026-10-16T12:24:00+08:00,S107,East Coast Park,1.3133,103.962,30.2,DBT 1M F,deg C
+2026-10-16T12:24:00+08:00,S80,Sembawang Meteorological Station,1.4247,103.8201,33.7,DBT 1M F,deg C
+2026-10-16T12:24:00+08:00,S24,Changi Meteorological Station,1.3678,103.9823,32.8,DBT 1M F,deg C
+2026-10-16T12:24:00+08:00,S23,Tengah Meteorological Station,1.3858,103.7119,32.5,DBT 1M F,deg C
