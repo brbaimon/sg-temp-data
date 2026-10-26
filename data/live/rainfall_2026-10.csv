@@ -159400,3 +159400,38 @@ ts,id,station_name,latitude,longitude,value,reading_type,reading_unit
 2026-10-26T22:00:00+08:00,S211,Kranji Road,1.42918,103.75711,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-26T22:00:00+08:00,S230,West Coast Road,1.30167,103.76444,0,TB1 Rainfall 5 Minute Total F,mm
 2026-10-26T22:00:00+08:00,S132,Jurong West Stadium,1.33786,103.69538,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S218,Bukit Batok Street 34,1.36491,103.75065,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S219,Yio Chu Kang Road,1.37998,103.87639,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S216,Ang Mo Kio Avenue 10,1.36019,103.85335,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S217,Bishan Street 13,1.35028,103.855,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S214,Tanjong Rhu,1.29911,103.88289,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S215,Geylang East Central,1.31944,103.88194,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S213,Coronation Walk,1.32427,103.8097,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S80,Sembawang Meteorological Station,1.4247,103.8201,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S24,Changi Meteorological Station,1.3678,103.9823,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S23,Tengah Meteorological Station,1.3858,103.7119,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S221,Hougang Avenue 1,1.35691,103.89088,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S222,Henderson Road,1.28987,103.82364,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S220,Compassvale Lane,1.38666,103.89797,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S229,Jurong West Street 42,1.35167,103.72195,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S208,Changi East Close,1.31363,104.00317,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S227,Woodlands Drive 62,1.43944,103.80389,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S107,East Coast Park,1.3133,103.962,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S129,Bedok Stadium,1.32575,103.93969,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S228,Jurong West Street 73,1.34703,103.70073,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S305,Sarimbum Reservoir,1.4216,103.68127,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S203,Pasir Panjang Road,1.29164,103.7702,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S127,Kallang Practice Track,1.30574,103.87817,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S226,Malan Road,1.27472,103.80389,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S303,Ponyan Reservoir,1.38375,103.65817,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S201,Sunset Way,1.32319,103.76714,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S223,Margaret Drive,1.29984,103.80264,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S301,Neo Tiew Lane 2,1.41532,103.72871,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S209,Yishun Ring Road,1.42111,103.84472,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S33,Jurong Pier Road,1.3082,103.71,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S35,Old Toh Tuck Road,1.3325,103.755,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S79,Somerset Road,1.3003,103.8372,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S210,Woodlands Centre Road,1.44003,103.76904,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S211,Kranji Road,1.42918,103.75711,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S230,West Coast Road,1.30167,103.76444,0,TB1 Rainfall 5 Minute Total F,mm
+2026-10-26T22:05:00+08:00,S132,Jurong West Stadium,1.33786,103.69538,0,TB1 Rainfall 5 Minute Total F,mm
